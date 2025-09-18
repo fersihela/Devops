@@ -1,11 +1,11 @@
 pipeline {
     agent any 
     // ou
-     agent {
-         node {
-            label 'build'
-        }
-     }
+    // agent {
+    //     node {
+    //        label 'build'
+    //    }
+    // }
 
     tools {
         maven 'M2_HOME'
